@@ -11,3 +11,7 @@ about:
 ---
 
 Hey there, welcome to my E-Portfolio! 
+
+I am a graduate student in the Master of Geomatics for Environmental Management (MGEM) program at UBC, currently working on a project that leverages multispectral imaging for vegetation species identification. My work focuses on applying remote sensing technologies to enhance ecological research and environmental decision-making.
+
+Outside of academics, I enjoy playing tennis and volleyball. Whether on the court or in the field, I appreciate the balance of technique, observation, and adaptability—qualities that also come into play in geomatics. This portfolio showcases my projects, skills, and experiences in the field. I'd love for you to explore my work and connect!
