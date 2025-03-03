@@ -136,10 +136,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Go to...</h2>
    
   <ul>
-  <li><a href="#project-1---capstone-deliverables" id="toc-project-1---capstone-deliverables" class="nav-link active" data-scroll-target="#project-1---capstone-deliverables">Project 1 - Capstone Deliverables</a>
+  <li><a href="#grizzly-bear-lcp" id="toc-grizzly-bear-lcp" class="nav-link active" data-scroll-target="#grizzly-bear-lcp">Cost Surface Analysis</a>
   <ul class="collapse">
   <li><a href="#leaflet" id="toc-leaflet" class="nav-link" data-scroll-target="#leaflet">Leaflet</a></li>
   <li><a href="#code-snippets" id="toc-code-snippets" class="nav-link" data-scroll-target="#code-snippets">Code Snippets</a></li>
@@ -151,6 +151,41 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<section id="grizzly-bear-lcp">
+    <h2>Grizzly Bear Movement Analysis</h2>
+    <p><strong>Least Cost Path Modeling for Grizzly Bear Habitat in Alberta</strong></p>
+    <p>This project applied raster analysis techniques using GDAL, QGIS, and ArcGIS Pro to model grizzly bear movement in the Yellowhead Bear Management Area, Alberta. By integrating terrain slope, road proximity, and land cover data, we developed a cost raster to estimate movement difficulty and identified optimal paths for bear movement. The results provide insights into habitat connectivity and conservation planning.</p>
+    
+    <h3>Objectives</h3>
+    <ul>
+        <li>Generate derivative rasters from slope, land cover, and road distance.</li>
+        <li>Create a weighted cost raster by assigning movement difficulty values.</li>
+        <li>Perform least-cost path analysis to model a potential bear route.</li>
+    </ul>
+    
+    <h3>Approach</h3>
+    <ol>
+        <li>Preprocess raster data: mosaic, clip, and reclassify layers.</li>
+        <li>Compute slope, land cover, and road distance cost layers.</li>
+        <li>Combine cost factors into a single weighted cost raster.</li>
+        <li>Use least-cost path tools to generate the optimal movement route.</li>
+    </ol>
+    
+    <h3>Results</h3>
+    <p>The final analysis produced a least-cost path map showing the most efficient movement corridor for a grizzly bear based on terrain and human impact. This highlights how spatial modeling can support wildlife conservation efforts.</p>
+    
+    <h3>Skills Developed</h3>
+    <ul>
+        <li>GDAL raster processing</li>
+        <li>Raster algebra and cost surface modeling</li>
+        <li>Least-cost path analysis in ArcGIS Pro and QGIS</li>
+    </ul>
+    
+    <h3></h3>
+    <p><a href="layoutGrizzlybear.pdf" target="_blank"></a></p>
+</section>
+
+  
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Content &amp; Deliverables</h1>
