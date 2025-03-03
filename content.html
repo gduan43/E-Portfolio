@@ -183,12 +183,37 @@ ul.task-list li input[type="checkbox"] {
         <li>Least-cost path analysis in ArcGIS Pro and QGIS</li>
     </ul>
     
-  
-
 <section id="term-project">
     <h2>Multispectral Vegetation Analysis for Richmond Natural Park</h2>
-    <p><strong>NDVI-Based Mapping for Peat Bog Identification</strong></p>
-    <p>This project utilized multispectral imaging techniques with Sentinel-2 L2A data to generate an NDVI-based raster vegetation map for Richmond Natural Park. By integrating Digital Elevation Models (DEM) and hydrology data, the analysis aims to assist in identifying optimal locations for peat bog conservation.</p>
+    <h3>NDVI-Based Mapping for Peat Bog Identification</h3>
+
+    <p>This project utilized multispectral imaging techniques with Sentinel-2 L2A data to generate an NDVI-based raster vegetation map for Richmond Natural Park. By integrating Digital Elevation Models (DEM) and hydrology data, the analysis aims to assist in identifying optimal locations for peat bog conservation. The study applies fundamental GIS and remote sensing techniques, including raster calculations, vector processing, and automated workflows.</p>
+
+    <h3>Objectives</h3>
+    <ul>
+        <li>Extract Near-Infrared (NIR) and Red bands from Sentinel-2 imagery to compute NDVI.</li>
+        <li>Generate a vegetation raster map to support future hydrology-based peat bog analysis.</li>
+        <li>Automate spatial data processing using Python-based geoprocessing workflows.</li>
+    </ul>
+
+    <h3>Approach</h3>
+    <ul>
+        <li><strong>Data Preprocessing:</strong> Crop Sentinel-2 imagery and study area shapefile.</li>
+        <li><strong>Raster Computation:</strong> Calculate NDVI using Red and NIR bands.</li>
+        <li><strong>Vector Processing:</strong> Clip results to the study area for targeted analysis.</li>
+        <li><strong>Automation:</strong> Implement for-loops and functions to streamline code execution.</li>
+    </ul>
+
+    <h3>Results</h3>
+    <p>The NDVI raster provides a spatial distribution of vegetation health within Richmond Natural Park, forming a foundational dataset for further environmental assessments. This work enhances the ability to evaluate peat bog viability using terrain and hydrological overlays.</p>
+
+    <h3>Skills Developed</h3>
+    <ul>
+        <li>Raster processing with Sentinel-2 data</li>
+        <li>NDVI calculation and interpretation</li>
+        <li>Vector data manipulation and geoprocessing</li>
+        <li>Python scripting for GIS automation</li>
+    </ul>
 
     <h3>Project Files</h3>
     <p><a href="image/TermProject.pdf" target="_blank">Download Term Project (PDF)</a></p>
@@ -198,7 +223,8 @@ ul.task-list li input[type="checkbox"] {
         <div class="tab">
             <input type="radio" id="python" name="code-tab" checked>
             <label for="python">Python</label>
-            <pre><code class="language-python">
+            <div style="max-height: 20em; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background-color: #f9f9f9;">
+                <pre style="margin: 0;"><code class="language-python">
 # Part 1: Cropping Sentinel-2 Image and Area of Interest Shapefile
 import rasterio
 import glob
@@ -235,7 +261,8 @@ plt.imshow(clipped_ndvi_data, cmap='viridis')
 plt.colorbar(label='NDVI')
 plt.title('Clipped NDVI')
 plt.show()
-            </code></pre>
+                </code></pre>
+            </div>
         </div>
     </div>
 </section>
