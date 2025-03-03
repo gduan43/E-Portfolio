@@ -184,7 +184,52 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </section>
 </div>
+</section>
+</div>
 
+<div style="background-color: #f4f4f4; padding: 25px; border-radius: 10px; margin: 40px 0;">
+
+  <section id="lidar-analysis">
+    <h2>Lidar-Based Tree Detection for Forest Analysis</h2>
+    <h3>Individual Tree Segmentation using LiDAR Data</h3>
+
+    <p>This project focuses on tree segmentation and classification using LiDAR remote sensing data from the <em>Malcolm Knapp Research Forest (MKRF)</em>. Two segmentation methods were applied:</p>
+    <ol>
+        <li>Point Cloud-Based Segmentation</li>
+        <li>Canopy Height Model (CHM)-Based Segmentation</li>
+    </ol>
+    <p>Using the lidR package in R, we analyzed tree height, canopy structure, and forest spatial distribution to improve individual tree detection accuracy.</p>
+
+    <h3>Objectives</h3>
+    <ul>
+        <li>Extract individual tree locations from LiDAR point clouds.</li>
+        <li>Compare Point Cloud vs. CHM-based segmentation methods.</li>
+        <li>Develop an automated workflow for large-area tree detection.</li>
+    </ul>
+
+    <h3>Approach</h3>
+    <ul>
+        <li>Data Preprocessing: Load <code>.las</code> LiDAR tiles, filter noise, normalize point cloud.</li>
+        <li>Point Cloud Segmentation: Classify individual trees directly from LiDAR points using <em>Li et al., 2012</em> segmentation algorithm.</li>
+        <li>CHM-Based Segmentation: Generate a Canopy Height Model (CHM) and extract trees using <em>Dalponte & Coomes 2016</em> algorithm.</li>
+        <li>Validation & Comparison: Evaluate detected trees against field observations.</li>
+    </ul>
+
+    <h3>Results</h3>
+    <p>The project successfully generated a tree segmentation dataset, showing differences between Point Cloud vs. CHM-based detection. The CHM-based method improved classification accuracy, particularly in dense forest areas.</p>
+
+<img src="treemodelgraph.png" class="about-image rounded" 
+     style="width: 100%; max-width: 20em; height: auto; display: block; margin: auto;">
+
+    <h3>Skills Developed</h3>
+    <ul>
+        <li>LiDAR data processing and normalization.</li>
+        <li>Canopy Height Model (CHM) generation and analysis.</li>
+        <li>Tree segmentation using R.</li>
+        <li>Comparative analysis of segmentation techniques.</li>
+    </ul>
+
+</section>
 <div style="background-color: #f4f4f4; padding: 25px; border-radius: 10px; margin: 40px 0;">
 <section id="term-project">
     <h2>Multispectral Vegetation Analysis for Richmond Natural Park</h2>
@@ -305,52 +350,7 @@ plt.show()
         <li>Watershed delineation in ArcGIS & QGIS</li>
         <li>Python scripting for GIS-based hydrology automation</li>
     </ul>
-</section>
-</div>
 
-<div style="background-color: #f4f4f4; padding: 25px; border-radius: 10px; margin: 40px 0;">
-
-  <section id="lidar-analysis">
-    <h2>Lidar-Based Tree Detection for Forest Analysis</h2>
-    <h3>Individual Tree Segmentation using LiDAR Data</h3>
-
-    <p>This project focuses on tree segmentation and classification using LiDAR remote sensing data from the <em>Malcolm Knapp Research Forest (MKRF)</em>. Two segmentation methods were applied:</p>
-    <ol>
-        <li>Point Cloud-Based Segmentation</li>
-        <li>Canopy Height Model (CHM)-Based Segmentation</li>
-    </ol>
-    <p>Using the lidR package in R, we analyzed tree height, canopy structure, and forest spatial distribution to improve individual tree detection accuracy.</p>
-
-    <h3>Objectives</h3>
-    <ul>
-        <li>Extract individual tree locations from LiDAR point clouds.</li>
-        <li>Compare Point Cloud vs. CHM-based segmentation methods.</li>
-        <li>Develop an automated workflow for large-area tree detection.</li>
-    </ul>
-
-    <h3>Approach</h3>
-    <ul>
-        <li>Data Preprocessing: Load <code>.las</code> LiDAR tiles, filter noise, normalize point cloud.</li>
-        <li>Point Cloud Segmentation: Classify individual trees directly from LiDAR points using <em>Li et al., 2012</em> segmentation algorithm.</li>
-        <li>CHM-Based Segmentation: Generate a Canopy Height Model (CHM) and extract trees using <em>Dalponte & Coomes 2016</em> algorithm.</li>
-        <li>Validation & Comparison: Evaluate detected trees against field observations.</li>
-    </ul>
-
-    <h3>Results</h3>
-    <p>The project successfully generated a tree segmentation dataset, showing differences between Point Cloud vs. CHM-based detection. The CHM-based method improved classification accuracy, particularly in dense forest areas.</p>
-
-<img src="treemodelgraph.png" class="about-image rounded" 
-     style="width: 100%; max-width: 20em; height: auto; display: block; margin: auto;">
-
-    <h3>Skills Developed</h3>
-    <ul>
-        <li>LiDAR data processing and normalization.</li>
-        <li>Canopy Height Model (CHM) generation and analysis.</li>
-        <li>Tree segmentation using R.</li>
-        <li>Comparative analysis of segmentation techniques.</li>
-    </ul>
-
-</section>
 </div>
 
 </main> <!-- /main -->
