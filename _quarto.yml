@@ -9,11 +9,9 @@ website:
       - href: index.qmd
         text: Home
       - href: resume.qmd
-        text: Resume
-      - href: publications.qmd
-        text: Projects
+        text: About Me
       - href: content.qmd
-        text: Content & Deliverables
+        text: Projects
 
 format:
   html:
