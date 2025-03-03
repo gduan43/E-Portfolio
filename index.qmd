@@ -1,24 +1,17 @@
 ---
-title: "My E-Portfolio"
+title: "GuangLan Duan"
 image: images/hi.png
 about:
   template: trestles
   image-width: 20em
   links: 
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/ramon-melser-666932129/
-    - icon: twitter
-      text: Twitter/X
-      href: https://x.com/MelserRamon
-    - icon: github
-      text: GitHub
-      href: https://github.com/ramonmelser
     - icon: envelope-at
       text: Email
-      href: mailto:melser@student.ubc.ca
+      href: mailto:gduan2022@gmail.com
 ---
 
-Hey there Gloria,
+Hey there, welcome to my ePortfolio! 
 
-This is my E-Portfolio landing page. myself, very exciting.
+I am a graduate student in the Master of Geomatics for Environmental Management (MGEM) program at UBC, currently working on a project that leverages multispectral imaging for vegetation species identification. My work focuses on applying remote sensing technologies to enhance ecological research and environmental decision-making.
+
+Outside of academics, I enjoy playing tennis and volleyball. Whether on the court or in the field, I appreciate the balance of technique, observation, and adaptability—qualities that also come into play in geomatics. This portfolio showcases my projects, skills, and experiences in the field. I'd love for you to explore my work and connect!
