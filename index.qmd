@@ -10,7 +10,7 @@ about:
       href: mailto:gduan2022@gmail.com
 ---
 
-Hey there, welcome to my ePortfolio! 
+Hey there, welcome to my E-Portfolio! 
 
 I am a graduate student in the Master of Geomatics for Environmental Management (MGEM) program at UBC, currently working on a project that leverages multispectral imaging for vegetation species identification. My work focuses on applying remote sensing technologies to enhance ecological research and environmental decision-making.
 
